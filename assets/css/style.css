@@ -1,0 +1,129 @@
+/*
+ *
+ * CSS Reset
+ *
+ */
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+/*
+ *
+ * General Rules
+ *
+ */
+
+ body{
+ 	font-family: 'Noto Serif', serif;
+ }
+
+nav.MainHeader {
+	min-height: 10vh;
+	background-color:#756a72;
+	padding-top: 25px;
+	padding-right: 35px;
+	margin-right: 35px;
+}
+
+nav.MainHeader > div#Menu > ul > li {
+	color: white;
+	margin-right: 5px;
+    float: right;
+    letter-spacing: 10px;
+    list-style: none;
+}
+
+main.MainHeader{
+	background-color: yellow;
+	min-height: 100vh;
+	text-align: center;
+	margin: 0 auto;
+	width: 65vw;
+	padding-top: 50px;
+}
+
+div.Header1 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 35px;
+}
+
+div.Header1 > p {
+	text-align: justify;
+	margin: 0 auto;
+	font-size: 15px;
+	padding-right: 80px;
+	padding-bottom: 20px;
+
+}
+
+/*section.MainHeader1 {
+	height: 40%;
+	width: 40%;
+
+}
+
+section.MainHeader2 {
+	height: 40%;
+	width: 40%;
+}
+
+section.MainHeader3 {
+	height: 40%;
+	width: 40%;
+}
+
+section.MainHeader4 {
+	height: 40%;
+	width: 40%;
+}
+
+section.MainHeader5 {
+	height: 40%;
+	width: 40%;
+}
+
+section.MainHeader6 {
+	height: 40%;
+	width: 40%;
+}*/
+
+img.Image{
+	height: 20vh;
+    width: 30vw;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px; 
+    padding-left: 50px;
+}
+
+div.Under {
+	color: #aaaaaa;
+	float: right;
+	margin-right: 20px;
+	font-size: 10px;
+	font-style:italic;
+}
+
+div.IconUnder {
+	color: #aaaaaa;
+	font-size: 10px;
+	letter-spacing: 2px;
+	margin-right: 10px;
+
+}
+
+div.IconUnder > ul > li{
+	display: inline-block;
+	list-style: none;
+	font-style: italic;
+}
+
+
+.main:after {
+ 	content: "";
+ 	display: block;
+ 	clear: both;
